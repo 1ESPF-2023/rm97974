@@ -12,7 +12,7 @@
     height: 60vh;
 }
 
-.banner-1{
+.banner1{
     flex-grow: 1;
     background-color: blueviolet;
     color: #fff;
@@ -22,7 +22,7 @@
     background-color: brown;
     color: #fff;
 }
-.banner-2{
+.banner2{
     flex-grow: 1;
     background-color: chocolate;
     color: #fff;

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Functions</title>
 
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js" defer></script>
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
@@ -16,19 +16,21 @@
     </header>
 
     <div class="container">
-        <aside class="banner-1">
+        <aside class="banner1">
             <span>BANNER-1</span>
         </aside>
         <section class="conteudo">
             <span>CONTEUDO</span>    
         </section>
-        <aside class="banner-2">
+        <aside class="banner2">
             <span>BANNER-2</span>
         </aside>
     </div>
     
     <footer class="rodape">
         <span>RODAPÉ</span>
+        <button onclick="mudarCor()">START</button>
+        <button onclick="clearTimeout(tmp)">STOP</button>
     </footer>
 </body>
 </html>
