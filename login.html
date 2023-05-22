@@ -9,8 +9,11 @@
 </head>
 <body>
 
+
+    <div id="msg"></div>
+
     <div class="info">
-        <form action="index.html" method="get">
+        <form action="index.html" method="get" onsubmit="return false">
             <div>
                 <label for="idUser">Usuário</label>
                 <input type="text" name="nmUser" id="idUser" placeholder="Usuário">
@@ -20,9 +23,8 @@
                 <input type="password" name="pass" id="idPass" placeholder="Senha">
             </div>
             <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
                 <button type="submit" id="btnSubmit">Entrar</button>
+                <button type="reset" id="btnReset">Limpar</button>
             </div>
         </form>
     </div>
